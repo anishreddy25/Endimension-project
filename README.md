@@ -1,3 +1,41 @@
+# Product Management Application
+
+## Description
+This is a web application built for managing products. It allows users to view, add, edit, and delete products. The application is developed using React, Ant Design, and JavaScript.
+
+## Folder/File Structure
+```
+product-management-app/
+│
+├── public/
+│   ├── index.html
+│   └── ...
+│
+└── src/
+    ├── components/
+    │   ├── ProductTable.js
+    │   └── ProductFilters.js
+    │
+    ├── contexts/
+    │   └── ProductContext.js
+    │
+    ├── pages/
+    │   ├── ProductListPage.js
+    │   └── AddProductPage.js
+    │
+    ├── App.js
+    └── ...
+```
+
+## Libraries Used
+- React
+- Ant Design
+- JavaScript
+
+## Additional Notes
+- The application currently lacks pagination functionality, which could be added in future updates.
+- UI improvements, such as enhanced styling and theming, can be implemented for a better user experience.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +106,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
